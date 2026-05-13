@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>六星占術</title>
+</head>
+
+<body>
+
+    <form method="POST">
+        生年月日：
+        <input type="date" name="birthday">
+        <button type="submit">占う</button>
+    </form>
+
+　<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $birthday = $_POST["birthday"];
+
+    // とりあえず年だけ取り出す
+    $year = date("Y", strtotime($birthday));
+
+    // 仮のロジック（簡易版）
+    if ($year % 6 == 0) {
+        echo "あなたは土星人＋です";
+    } elseif ($year % 6 == 1) {
+        echo "あなたは金星人−です";
+    } else {
+        echo "他の星人です";
+    }
+}
+?>
+
+</body>
+
+</html>
