@@ -32,5 +32,20 @@ $cities =[
     'name' => 'ニューヨーク',
     'time_zone' => 'America/New_York',
     'img' => 'america.jpg'
+  ],
+  [
+    'name' => 'アイスランド',
+    'time_zone' => 'Atlantic/Reykjavik',
+    'img' => 'thumbnail.svg'
+  ],
+  [
+    'name' => 'ブラジル',
+    'time_zone' => 'America/Sao_Paulo',
+    'img' => 'tai.svg'
+  ],
+  [
+    'name' => 'タイ',
+    'time_zone' => 'Asia/Bangkok',
+    'img' => 'bangkok.svg'
   ]
 ];

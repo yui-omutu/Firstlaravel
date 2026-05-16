@@ -34,6 +34,9 @@
             <option value="ロンドン">ロンドン</option>
             <option value="ヨハネスブルグ">ヨハネスブルグ</option>
             <option value="ニューヨーク">ニューヨーク</option>
+            <option value="アイスランド">アイスランド</option>
+            <option value="ブラジル">ブラジル</option>
+            <option value="タイ">タイ</option>
           </select>
         </div>
         <div class="search-form__button">
