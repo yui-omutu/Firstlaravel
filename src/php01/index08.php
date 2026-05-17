@@ -1,7 +1,12 @@
 <?php
-$people =[
- ["jiro",24,"women"],["taro",21,"men"],["hanako",27,"men"]
-];
-foreach($people as $person){
- echo $person[0] . "(" . $person[1] . $person[2] . ")";
+function text($score1,$score2,$score3)
+{
+$total = $score1+$score2+$score3;
+
+if($total>=210){
+ echo $total . "なので合格です";
+}else{
+echo $total . "なので不合格です";
 }
+}
+echo text(100,200,30);
